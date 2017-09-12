@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  PhotoCollectionViewCell.m
 //  BrandPhotos
 //
 //  Created by Mark Gumbs on 12/09/2017.
 //  Copyright © 2017 Mark Gumbs. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "PhotoCollectionViewCell.h"
 
-@interface ViewController : UIViewController
-
+@implementation PhotoCollectionViewCell
 
 @end
-

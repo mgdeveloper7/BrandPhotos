@@ -9,10 +9,21 @@
 /* Begin PBXBuildFile section */
 		C01876751F67CC6A00CD77F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C01876741F67CC6A00CD77F3 /* main.m */; };
 		C01876781F67CC6A00CD77F3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C01876771F67CC6A00CD77F3 /* AppDelegate.m */; };
-		C018767B1F67CC6A00CD77F3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C018767A1F67CC6A00CD77F3 /* ViewController.m */; };
 		C018767E1F67CC6A00CD77F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C018767C1F67CC6A00CD77F3 /* Main.storyboard */; };
 		C01876801F67CC6A00CD77F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C018767F1F67CC6A00CD77F3 /* Assets.xcassets */; };
 		C01876831F67CC6A00CD77F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C01876811F67CC6A00CD77F3 /* LaunchScreen.storyboard */; };
+		C018768D1F67CCC800CD77F3 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = C018768C1F67CCC800CD77F3 /* User.m */; };
+		C01876911F67CF3400CD77F3 /* DataRetrieval.m in Sources */ = {isa = PBXBuildFile; fileRef = C01876901F67CF3400CD77F3 /* DataRetrieval.m */; };
+		C01876991F67D27900CD77F3 /* SelectUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C01876981F67D27900CD77F3 /* SelectUserViewController.m */; };
+		C01876A41F67E05700CD77F3 /* UserTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C01876A31F67E05700CD77F3 /* UserTableViewCell.m */; };
+		C01876A81F67E73A00CD77F3 /* ViewUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C01876A71F67E73A00CD77F3 /* ViewUserViewController.m */; };
+		C01876AB1F67F1B200CD77F3 /* Album.m in Sources */ = {isa = PBXBuildFile; fileRef = C01876AA1F67F1B200CD77F3 /* Album.m */; };
+		C01876B11F6803B500CD77F3 /* UserAlbumCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C01876B01F6803B500CD77F3 /* UserAlbumCell.m */; };
+		C01876B51F68091700CD77F3 /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = C01876B41F68091700CD77F3 /* Photo.m */; };
+		C01876B91F680CB700CD77F3 /* ViewAlbumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C01876B81F680CB700CD77F3 /* ViewAlbumViewController.m */; };
+		C01876BF1F6815AF00CD77F3 /* PhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C01876BE1F6815AF00CD77F3 /* PhotoCollectionViewCell.m */; };
+		C01876C31F6838FC00CD77F3 /* LargePhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C01876C21F6838FC00CD77F3 /* LargePhotoViewController.m */; };
+		C01876C61F68421400CD77F3 /* UserAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = C01876C51F68421400CD77F3 /* UserAddress.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +31,35 @@
 		C01876741F67CC6A00CD77F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C01876761F67CC6A00CD77F3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C01876771F67CC6A00CD77F3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C01876791F67CC6A00CD77F3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C018767A1F67CC6A00CD77F3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C018767D1F67CC6A00CD77F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C018767F1F67CC6A00CD77F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C01876821F67CC6A00CD77F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C01876841F67CC6A00CD77F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C018768B1F67CCC800CD77F3 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		C018768C1F67CCC800CD77F3 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		C018768F1F67CF3400CD77F3 /* DataRetrieval.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataRetrieval.h; sourceTree = "<group>"; };
+		C01876901F67CF3400CD77F3 /* DataRetrieval.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataRetrieval.m; sourceTree = "<group>"; };
+		C01876971F67D27900CD77F3 /* SelectUserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectUserViewController.h; sourceTree = "<group>"; };
+		C01876981F67D27900CD77F3 /* SelectUserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectUserViewController.m; sourceTree = "<group>"; };
+		C018769E1F67DD8C00CD77F3 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		C01876A21F67E05700CD77F3 /* UserTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserTableViewCell.h; sourceTree = "<group>"; };
+		C01876A31F67E05700CD77F3 /* UserTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserTableViewCell.m; sourceTree = "<group>"; };
+		C01876A61F67E73A00CD77F3 /* ViewUserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewUserViewController.h; sourceTree = "<group>"; };
+		C01876A71F67E73A00CD77F3 /* ViewUserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewUserViewController.m; sourceTree = "<group>"; };
+		C01876A91F67F1B200CD77F3 /* Album.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Album.h; sourceTree = "<group>"; };
+		C01876AA1F67F1B200CD77F3 /* Album.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Album.m; sourceTree = "<group>"; };
+		C01876AF1F6803B500CD77F3 /* UserAlbumCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserAlbumCell.h; sourceTree = "<group>"; };
+		C01876B01F6803B500CD77F3 /* UserAlbumCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserAlbumCell.m; sourceTree = "<group>"; };
+		C01876B31F68091700CD77F3 /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
+		C01876B41F68091700CD77F3 /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
+		C01876B71F680CB700CD77F3 /* ViewAlbumViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewAlbumViewController.h; sourceTree = "<group>"; };
+		C01876B81F680CB700CD77F3 /* ViewAlbumViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewAlbumViewController.m; sourceTree = "<group>"; };
+		C01876BD1F6815AF00CD77F3 /* PhotoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoCollectionViewCell.h; sourceTree = "<group>"; };
+		C01876BE1F6815AF00CD77F3 /* PhotoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoCollectionViewCell.m; sourceTree = "<group>"; };
+		C01876C11F6838FC00CD77F3 /* LargePhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LargePhotoViewController.h; sourceTree = "<group>"; };
+		C01876C21F6838FC00CD77F3 /* LargePhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LargePhotoViewController.m; sourceTree = "<group>"; };
+		C01876C41F68421400CD77F3 /* UserAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserAddress.h; sourceTree = "<group>"; };
+		C01876C51F68421400CD77F3 /* UserAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserAddress.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +92,11 @@
 		C01876721F67CC6A00CD77F3 /* BrandPhotos */ = {
 			isa = PBXGroup;
 			children = (
-				C01876761F67CC6A00CD77F3 /* AppDelegate.h */,
-				C01876771F67CC6A00CD77F3 /* AppDelegate.m */,
-				C01876791F67CC6A00CD77F3 /* ViewController.h */,
-				C018767A1F67CC6A00CD77F3 /* ViewController.m */,
+				C018769D1F67DD7D00CD77F3 /* Constants */,
+				C01876921F67D13900CD77F3 /* AppDelegate */,
+				C018768A1F67CC9000CD77F3 /* Model */,
+				C018768E1F67CF1A00CD77F3 /* Data */,
+				C01876931F67D14300CD77F3 /* ViewControllers */,
 				C018767C1F67CC6A00CD77F3 /* Main.storyboard */,
 				C018767F1F67CC6A00CD77F3 /* Assets.xcassets */,
 				C01876811F67CC6A00CD77F3 /* LaunchScreen.storyboard */,
@@ -77,6 +112,116 @@
 				C01876741F67CC6A00CD77F3 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C018768A1F67CC9000CD77F3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C018768B1F67CCC800CD77F3 /* User.h */,
+				C018768C1F67CCC800CD77F3 /* User.m */,
+				C01876C41F68421400CD77F3 /* UserAddress.h */,
+				C01876C51F68421400CD77F3 /* UserAddress.m */,
+				C01876A91F67F1B200CD77F3 /* Album.h */,
+				C01876AA1F67F1B200CD77F3 /* Album.m */,
+				C01876B31F68091700CD77F3 /* Photo.h */,
+				C01876B41F68091700CD77F3 /* Photo.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		C018768E1F67CF1A00CD77F3 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				C018768F1F67CF3400CD77F3 /* DataRetrieval.h */,
+				C01876901F67CF3400CD77F3 /* DataRetrieval.m */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		C01876921F67D13900CD77F3 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				C01876761F67CC6A00CD77F3 /* AppDelegate.h */,
+				C01876771F67CC6A00CD77F3 /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		C01876931F67D14300CD77F3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C01876A01F67E02500CD77F3 /* Select User */,
+				C01876A51F67E71800CD77F3 /* View User */,
+				C01876B61F680C7C00CD77F3 /* View Photo Album */,
+				C01876C01F6838CF00CD77F3 /* View Large Photo */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C018769D1F67DD7D00CD77F3 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				C018769E1F67DD8C00CD77F3 /* Constants.h */,
+			);
+			name = Constants;
+			sourceTree = "<group>";
+		};
+		C01876A01F67E02500CD77F3 /* Select User */ = {
+			isa = PBXGroup;
+			children = (
+				C01876A11F67E03800CD77F3 /* TableViewCell */,
+				C01876971F67D27900CD77F3 /* SelectUserViewController.h */,
+				C01876981F67D27900CD77F3 /* SelectUserViewController.m */,
+			);
+			name = "Select User";
+			sourceTree = "<group>";
+		};
+		C01876A11F67E03800CD77F3 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				C01876A21F67E05700CD77F3 /* UserTableViewCell.h */,
+				C01876A31F67E05700CD77F3 /* UserTableViewCell.m */,
+			);
+			name = TableViewCell;
+			sourceTree = "<group>";
+		};
+		C01876A51F67E71800CD77F3 /* View User */ = {
+			isa = PBXGroup;
+			children = (
+				C01876B21F6803E100CD77F3 /* TableViewCell */,
+				C01876A61F67E73A00CD77F3 /* ViewUserViewController.h */,
+				C01876A71F67E73A00CD77F3 /* ViewUserViewController.m */,
+			);
+			name = "View User";
+			sourceTree = "<group>";
+		};
+		C01876B21F6803E100CD77F3 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				C01876AF1F6803B500CD77F3 /* UserAlbumCell.h */,
+				C01876B01F6803B500CD77F3 /* UserAlbumCell.m */,
+			);
+			name = TableViewCell;
+			sourceTree = "<group>";
+		};
+		C01876B61F680C7C00CD77F3 /* View Photo Album */ = {
+			isa = PBXGroup;
+			children = (
+				C01876B71F680CB700CD77F3 /* ViewAlbumViewController.h */,
+				C01876B81F680CB700CD77F3 /* ViewAlbumViewController.m */,
+				C01876BD1F6815AF00CD77F3 /* PhotoCollectionViewCell.h */,
+				C01876BE1F6815AF00CD77F3 /* PhotoCollectionViewCell.m */,
+			);
+			name = "View Photo Album";
+			sourceTree = "<group>";
+		};
+		C01876C01F6838CF00CD77F3 /* View Large Photo */ = {
+			isa = PBXGroup;
+			children = (
+				C01876C11F6838FC00CD77F3 /* LargePhotoViewController.h */,
+				C01876C21F6838FC00CD77F3 /* LargePhotoViewController.m */,
+			);
+			name = "View Large Photo";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,9 +296,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C018767B1F67CC6A00CD77F3 /* ViewController.m in Sources */,
+				C01876B51F68091700CD77F3 /* Photo.m in Sources */,
+				C01876A41F67E05700CD77F3 /* UserTableViewCell.m in Sources */,
+				C018768D1F67CCC800CD77F3 /* User.m in Sources */,
+				C01876AB1F67F1B200CD77F3 /* Album.m in Sources */,
 				C01876781F67CC6A00CD77F3 /* AppDelegate.m in Sources */,
+				C01876B11F6803B500CD77F3 /* UserAlbumCell.m in Sources */,
+				C01876B91F680CB700CD77F3 /* ViewAlbumViewController.m in Sources */,
 				C01876751F67CC6A00CD77F3 /* main.m in Sources */,
+				C01876C31F6838FC00CD77F3 /* LargePhotoViewController.m in Sources */,
+				C01876A81F67E73A00CD77F3 /* ViewUserViewController.m in Sources */,
+				C01876911F67CF3400CD77F3 /* DataRetrieval.m in Sources */,
+				C01876C61F68421400CD77F3 /* UserAddress.m in Sources */,
+				C01876991F67D27900CD77F3 /* SelectUserViewController.m in Sources */,
+				C01876BF1F6815AF00CD77F3 /* PhotoCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
