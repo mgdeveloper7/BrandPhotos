@@ -71,6 +71,15 @@
     
 }
 
+- (IBAction)websiteButtonPressed:(id)sender {
+    
+    NSURL *websiteURL = [NSURL URLWithString:_selectedUser.website];
+    
+    UIApplication *application = [UIApplication sharedApplication];
+    [application openURL:websiteURL options:@{} completionHandler:nil];
+    
+}
+
 #pragma mark - Notification methods
 
 - (void) photoRetrievalFinished {
