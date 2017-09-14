@@ -35,7 +35,7 @@
         _phone = [userDict objectForKey:@"phone"];
         _website = [userDict objectForKey:@"website"];
         
-        // Only using the company name so no point doing seperate object.
+        // Only using the company name so no point doing seperate company object.
         // Extract the company name from the key.
         
         _company = [[userDict valueForKey:@"company"] objectForKey:@"name"];

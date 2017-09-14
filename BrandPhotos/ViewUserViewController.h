@@ -13,6 +13,7 @@
 #import "UserAlbumCell.h"
 #import "Photo.h"
 #import "ViewAlbumViewController.h"
+#import "UIView+Toast.h"
 
 @interface ViewUserViewController : UIViewController<UITableViewDataSource, UITableViewDelegate>
 

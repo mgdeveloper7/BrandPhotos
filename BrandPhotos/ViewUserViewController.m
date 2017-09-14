@@ -75,6 +75,7 @@
 
 - (void) photoRetrievalFinished {
     
+ //   [self.view hideToastActivity];
     [self performSegueWithIdentifier:@"ViewPhotosSegue" sender:self];
 
 }
@@ -123,6 +124,12 @@
 {
     selectedAlbum = _albumsForSelectedUser[[indexPath section]];
     
+    // TODO:  Make toast here
+    // display toast with an activity spinner
+    [self.view makeToastActivity:CSToastPositionCenter];
+
+    [self.view makeToast:@"Loading photos for the selected album..."];
+    
     // Obtain the album details for the selected user
     
     NSString *urlPath = [NSString stringWithFormat:@"%@%d", @"/photos?albumId=", selectedAlbum.albumID];
@@ -145,6 +152,8 @@
         
         // Notify that refresh has finished
         // Send any UI processing back to the main thread
+        [self.view hideToastActivity];
+
         dispatch_async(dispatch_get_main_queue(), ^ {
             [[NSNotificationCenter defaultCenter] postNotificationName:PHOTO_RETRIEVAL_FINISHED object:nil];
         });

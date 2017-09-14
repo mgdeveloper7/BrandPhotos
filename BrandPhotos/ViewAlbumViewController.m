@@ -75,10 +75,6 @@
     NSData *data = [NSData dataWithContentsOfURL:url];
     UIImage *image = [UIImage imageWithData:data];
     
-    //    UIImageView *photoImageView = (UIImageView *)[cell viewWithTag:1000];
-    //    photoImageView.image = [UIImage imageNamed:@"test-icon"];
-    
-    //    cell.backgroundView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"test-icon"]];
     cell.backgroundView = [[UIImageView alloc] initWithImage:image];
     
     return cell;

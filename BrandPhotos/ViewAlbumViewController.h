@@ -18,6 +18,6 @@
 @property (strong, nonatomic) Album *selectedAlbum;
 @property (strong, nonatomic) NSMutableArray *photosForSelectedUser;
 
-@property (strong, nonatomic) IBOutlet UILabel *albumName;
+@property (weak, nonatomic) IBOutlet UILabel *albumName;
 
 @end
