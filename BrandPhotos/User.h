@@ -18,7 +18,7 @@
 @property (nonatomic, strong) UserAddress *address;
 @property (nonatomic, strong) NSString *phone;
 @property (nonatomic, strong) NSString *website;
-@property (nonatomic, strong) NSMutableArray *company;
+@property (nonatomic, strong) NSString *company;
 
 - (id)init:(NSDictionary *) userDict;
 
